@@ -84,7 +84,7 @@ Main screen allows the following operations:
 
 Click Generate button to open edit modal:
 
-<img src="https://i.imgur.com/v4WalW9.png" alt="Edit Modal" width="300" align="right"/>
+<img src="https://i.imgur.com/0kdh8jK.png" alt="Edit Modal" width="300" align="right"/>
 
 - Text prompt editing
 - Parameter value adjustment (steps, cfg, size, etc.)
@@ -190,7 +190,7 @@ git clone https://github.com/vkff5833/ComfyUI-MobileClient
 
 Generateボタンをクリックすると編集モーダルが開きます：
 
-<img src="https://i.imgur.com/v4WalW9.png" alt="編集モーダル" width="300" align="right"/>
+<img src="https://i.imgur.com/0kdh8jK.png" alt="編集モーダル" width="300" align="right"/>
 
 - テキストプロンプトの編集
 - パラメータ値の調整（steps、cfg、サイズなど）

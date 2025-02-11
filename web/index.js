@@ -761,9 +761,12 @@ class App {
     }
 }
 
+import { app } from "../../scripts/app.js";
 // アプリケーションの起動
 document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('comfyui-mobile-client')) {
-        const app = new App();
+        const mobileClient = new App();
+    }else{
+        console.log(app.graph._nodes);
     }
 });
