@@ -82,14 +82,14 @@ Main screen allows the following operations:
 
 ### 3. Prompt Editing
 
-Click image to open edit modal:
+Click Generate button to open edit modal:
 
 <img src="https://i.imgur.com/v4WalW9.png" alt="Edit Modal" width="300" align="right"/>
 
 - Text prompt editing
 - Parameter value adjustment (steps, cfg, size, etc.)
 - Seed value editing (auto randomization possible)
-- "Generate" button for immediate execution
+- "Regenerate" button for immediate execution
 
 <br clear="right"/>
 
@@ -188,14 +188,14 @@ git clone https://github.com/vkff5833/ComfyUI-MobileClient
 
 ### 3. プロンプト編集
 
-画像をクリックすると編集モーダルが開きます：
+Generateボタンをクリックすると編集モーダルが開きます：
 
 <img src="https://i.imgur.com/v4WalW9.png" alt="編集モーダル" width="300" align="right"/>
 
 - テキストプロンプトの編集
 - パラメータ値の調整（steps、cfg、サイズなど）
 - シード値の編集（自動ランダム化可能）
-- 「Generate」ボタンで即時生成実行
+- 「Regenerate」ボタンを押すと編集モーダルを開かず即時に再生成します。
 
 <br clear="right"/>
 
