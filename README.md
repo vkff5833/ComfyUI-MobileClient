@@ -9,6 +9,14 @@ A mobile-friendly web client extension for ComfyUI that allows you to:
 
 ## Installation
 
+### Method 1: Using ComfyUI-Manager
+
+You can install directly from ComfyUI-Manager:
+
+![Install from ComfyUI-Manager](https://i.imgur.com/8MRw7GW.png)
+
+### Method 2: Manual Installation
+
 1. Clone this repository into your ComfyUI's `custom_nodes` directory:
 
 ```
@@ -66,6 +74,14 @@ ComfyUI用のモバイルフレンドリーなWebクライアント拡張機能�
 - プロンプト生成のための各種設定のカスタマイズ
 
 ## インストール方法
+
+### 方法1: ComfyUI-Managerを使用
+
+ComfyUI-Managerから直接インストールできます:
+
+![ComfyUI-Managerでのインストール](https://i.imgur.com/8MRw7GW.png)
+
+### 方法2: 手動インストール
 
 1. ComfyUIの`custom_nodes`ディレクトリにこのリポジトリをクローンします：
 
