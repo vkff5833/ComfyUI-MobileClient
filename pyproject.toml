@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-mobileclient"
+description = "Add a mobile-friendly web interface to ComfyUI."
+version = "1.0.1"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/vkff5833/ComfyUI-MobileClient"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "vkff5833"
+DisplayName = "ComfyUI-MobileClient"
+Icon = ""
