@@ -25,7 +25,9 @@ git clone https://github.com/vkff5833/ComfyUI-MobileClient
 ```
 
 2. Restart ComfyUI
-3. Access the client at: `http://SERVER/extensions/ComfyUI-MobileClient/index.html`
+
+### Common: After Installation
+Access the client at: `http://SERVER/extensions/ComfyUI-MobileClient/index.html`
 
 **Note: The "index.html" part of the URL cannot be omitted. Make sure to include it in the URL.**
 
@@ -54,13 +56,51 @@ git clone https://github.com/vkff5833/ComfyUI-MobileClient
 
 ## Usage
 
-1. Configure server settings (click menu icon in top-left)
-2. Upload workflow JSON or view generated images
-3. Edit prompts using the edit modal
-4. Monitor queue status in real-time
-5. Navigate gallery using arrow keys:
-   - Left/Right: Previous/Next image
-   - Up/Down: Previous/Next queue item
+### 1. Server Settings
+
+Left top menu icon to open settings screen:
+
+<img src="https://i.imgur.com/zPPPSKS.png" alt="Settings Screen" width="300" align="right"/>
+
+- Server URL setting (default is `/`)
+- Authentication setting (if needed)
+- Prompt field pattern setting
+- Queue monitoring interval adjustment
+
+<br clear="right"/>
+
+### 2. Workflow Upload and Image Generation
+
+Main screen allows the following operations:
+
+<img src="https://i.imgur.com/Lq7FS4W.png" alt="Main Interface" width="300"/>
+
+- Drag & drop workflow JSON file or file selection
+- Gallery display of generated images
+- Real-time queue status monitoring
+- Image regeneration and prompt editing
+
+### 3. Prompt Editing
+
+Click image to open edit modal:
+
+<img src="https://i.imgur.com/v4WalW9.png" alt="Edit Modal" width="300" align="right"/>
+
+- Text prompt editing
+- Parameter value adjustment (steps, cfg, size, etc.)
+- Seed value editing (auto randomization possible)
+- "Generate" button for immediate execution
+
+<br clear="right"/>
+
+### Keyboard Shortcuts
+
+Available keys when gallery is displayed:
+
+- ←/→: Move to previous/next image
+- ↑/↓: Move to previous/next queue item
+- Enter: Edit selected image prompt
+- Space: Regenerate selected image
 
 ---
 
@@ -91,7 +131,9 @@ git clone https://github.com/vkff5833/ComfyUI-MobileClient
 ```
 
 2. ComfyUIを再起動します
-3. 以下のURLでアクセスします：`http://SERVER/extensions/ComfyUI-MobileClient/index.html`
+
+### 共通: インストール後
+以下のURLでアクセスします：`http://SERVER/extensions/ComfyUI-MobileClient/index.html`
 
 **注意：URLの末尾の "index.html" は省略できません。必ずURLに含めてください。**
 
@@ -120,10 +162,48 @@ git clone https://github.com/vkff5833/ComfyUI-MobileClient
 
 ## 使用方法
 
-1. サーバー設定を構成（左上のメニューアイコンをクリック）
-2. ワークフローJSONをアップロードするか生成済み画像を表示
-3. 編集モーダルでプロンプトを編集
-4. リアルタイムでキュー状態を監視
-5. 矢印キーでギャラリーをナビゲート：
-   - 左/右：前/次の画像
-   - 上/下：前/次のキューアイテム
+### 1. サーバー設定
+
+左上のメニューアイコンをクリックして設定画面を開きます：
+
+<img src="https://i.imgur.com/zPPPSKS.png" alt="設定画面" width="300" align="right"/>
+
+- サーバーURL設定（デフォルトは `/`）
+- 認証設定（必要な場合）
+- プロンプトフィールドのパターン設定
+- キュー監視間隔の調整
+
+<br clear="right"/>
+
+### 2. ワークフローのアップロードと画像生成
+
+メイン画面では以下の操作が可能です：
+
+<img src="https://i.imgur.com/Lq7FS4W.png" alt="メインインターフェース" width="300"/>
+
+- ワークフローJSONファイルのドラッグ＆ドロップまたはファイル選択
+- 生成済み画像のギャラリー表示
+- キュー状態のリアルタイム監視
+- 画像の再生成やプロンプト編集
+
+### 3. プロンプト編集
+
+画像をクリックすると編集モーダルが開きます：
+
+<img src="https://i.imgur.com/v4WalW9.png" alt="編集モーダル" width="300" align="right"/>
+
+- テキストプロンプトの編集
+- パラメータ値の調整（steps、cfg、サイズなど）
+- シード値の編集（自動ランダム化可能）
+- 「Generate」ボタンで即時生成実行
+
+<br clear="right"/>
+
+### キーボードショートカット
+
+ギャラリー表示時に以下のキーが使用可能：
+
+- ←/→：前/次の画像に移動
+- ↑/↓：前/次のキューアイテムに移動
+- Enter：選択中の画像のプロンプトを編集
+- Space：選択中の画像を再生成
